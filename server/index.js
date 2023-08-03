@@ -16,6 +16,8 @@ class Server {
 
     // routes
     this.routes()
+
+    this.bot()
   }
 
   middleware () {
@@ -31,6 +33,10 @@ class Server {
 
   routes () {
     this.app.use(this.usersPath, require('../routes/users'))
+  }
+
+  bot () {
+    require('../controllers/demo-bot')
   }
 
   listen () {
