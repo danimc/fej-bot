@@ -14,7 +14,7 @@
     "dotenv": "^16.3.1",
     "express": "^4.18.2",
     "express-validator": "^7.0.1",
-    "telegramsjs": "^1.7.0"
+    "telegramsjs": "^1.7.3"
   },
   "devDependencies": {
     "eslint": "^8.46.0",
